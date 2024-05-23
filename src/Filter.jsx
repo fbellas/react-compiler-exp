@@ -1,5 +1,3 @@
-import React from 'react';
-
 import * as filterTypes from './filterTypes';
 
 const Filter = ({filterType, onFilterClick}) => {
@@ -21,4 +19,4 @@ const Filter = ({filterType, onFilterClick}) => {
 
 }
 
-export default React.memo(Filter);
+export default Filter;

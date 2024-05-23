@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Todo = ({todo, onToggleCompleted}) => {
 
     console.log(`*** Todo: ${todo.text}`);
@@ -11,4 +9,4 @@ const Todo = ({todo, onToggleCompleted}) => {
 
 }
 
-export default React.memo(Todo);
+export default Todo;

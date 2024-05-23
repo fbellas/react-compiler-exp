@@ -1,5 +1,3 @@
-import React from 'react';
-
 import {useState} from 'react';
 
 const AddTodo = ({onAddTodo}) => {
@@ -28,4 +26,4 @@ const AddTodo = ({onAddTodo}) => {
 
 }
 
-export default React.memo(AddTodo);
+export default AddTodo;
